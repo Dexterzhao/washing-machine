@@ -1,0 +1,41 @@
+
+NET "clk" TNM_NET = "clk";
+TIMESPEC TS_clk = PERIOD "clk" 20 ns HIGH 50 %;
+
+NET "mode_button" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "power_button" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "pause_button" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+NET "clk" LOC = B8;
+
+NET "mode_button" LOC = G12;
+NET "power_button" LOC = A7;
+NET "power_led" LOC = N4;
+NET "pause_button" LOC = M4;
+NET "auto_led" LOC = P6;
+NET "pause_led" LOC = N5;
+NET "wash_led[4]" LOC = G1;
+NET "wash_led[3]" LOC = P4;
+NET "wash_led[2]" LOC = P7;
+NET "wash_led[1]" LOC = M11;
+NET "wash_led[0]" LOC = M5;
+
+
+NET "real_clk" LOC = N4;
+
+
+NET "ag[7]" LOC = L14;
+NET "ag[6]" LOC = H12;
+NET "ag[5]" LOC = N14;
+NET "ag[4]" LOC = N11;
+NET "ag[3]" LOC = P12;
+NET "ag[2]" LOC = L13;
+NET "ag[1]" LOC = M12;
+NET "ag[0]" LOC = N13;
+NET "an[3]" LOC = K14;
+NET "an[2]" LOC = M13;
+NET "an[1]" LOC = J12;
+NET "an[0]" LOC = F12;
+
+# PlanAhead Generated physical constraints 

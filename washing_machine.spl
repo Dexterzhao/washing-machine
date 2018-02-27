@@ -1,0 +1,16 @@
+[Inputs]
+clk
+power_button
+pause_button
+mode_button
+[Outputs]
+power_led
+pause_led
+auto_led
+=wash_led[4:0]=
+=an[3:0]=
+=ag[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel washing_machine
+

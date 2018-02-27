@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "F:/ISE/work/final_exp/washing_machine/washing_machine_test_isim_beh.exe" -prj "F:/ISE/work/final_exp/washing_machine/washing_machine_test_beh.prj" "work.washing_machine_test" "work.glbl" 

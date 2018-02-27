@@ -1,0 +1,28 @@
+Command line:
+   washing_machine_test_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  40103
+
+Thu Jun 19 01:39:25 2014
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 673.636 Meg
+
+ Total Signals          : 26
+ Total Nets             : 33
+ Total Signal Drivers   : 16
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 26
+ Total Traceable Variables  : 39
+ Total Scalar Nets and Variables : 190
+
+ Total Simulation Time: 0.1248 sec
+
+ Current Memory Usage: 673.636 Meg
+
+Thu Jun 19 01:39:50 2014
+

@@ -1,0 +1,111 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design washing_machine.ngc ...
+WARNING:NetListWriters:298 - No output is written to washing_machine.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Mcompar_real_clk_cmp_lt0000_lut<10 : 1>
+   on block washing_machine is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus _old_an_timer_4<15 : 4> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _old_ns_timer_2<25 : 7> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file washing_machine.edif ...
+ngc2edif: Total memory usage is 86368 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design washing_machine.ngc ...
+WARNING:NetListWriters:298 - No output is written to washing_machine.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Mcompar_real_clk_cmp_lt0000_lut<10 : 1>
+   on block washing_machine is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus _old_an_timer_4<15 : 4> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _old_ns_timer_2<25 : 7> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file washing_machine.edif ...
+ngc2edif: Total memory usage is 86048 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design washing_machine.ngc ...
+WARNING:NetListWriters:298 - No output is written to washing_machine.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Mcompar_real_clk_cmp_lt0000_lut<10 : 1>
+   on block washing_machine is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus _old_an_timer_4<15 : 4> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _old_ns_timer_2<25 : 7> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file washing_machine.edif ...
+ngc2edif: Total memory usage is 85536 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design washing_machine.ngc ...
+WARNING:NetListWriters:298 - No output is written to washing_machine.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Mcompar_real_clk_cmp_lt0000_lut<10 : 1>
+   on block washing_machine is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus _old_an_timer_4<15 : 4> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _old_ns_timer_2<25 : 7> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus time_limit<4 : 0> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file washing_machine.edif ...
+ngc2edif: Total memory usage is 85088 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design washing_machine.ngc ...
+WARNING:NetListWriters:298 - No output is written to washing_machine.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Mcompar_real_clk_cmp_lt0000_lut<10 : 1>
+   on block washing_machine is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus _old_an_timer_4<15 : 4> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _old_ns_timer_2<25 : 7> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus time_limit<4 : 0> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file washing_machine.edif ...
+ngc2edif: Total memory usage is 86112 kilobytes
+

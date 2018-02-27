@@ -1,0 +1,53 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Sep 19 09:58:40 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "ag<0>" LOCATE = SITE "N13" LEVEL 1;
+COMP "ag<1>" LOCATE = SITE "M12" LEVEL 1;
+COMP "ag<2>" LOCATE = SITE "L13" LEVEL 1;
+COMP "ag<3>" LOCATE = SITE "P12" LEVEL 1;
+COMP "ag<4>" LOCATE = SITE "N11" LEVEL 1;
+COMP "ag<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "ag<6>" LOCATE = SITE "H12" LEVEL 1;
+COMP "ag<7>" LOCATE = SITE "L14" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "power_led" LOCATE = SITE "N4" LEVEL 1;
+COMP "pause_button" LOCATE = SITE "M4" LEVEL 1;
+PIN pause_button_pin<0> = BEL "pause_button" PINNAME PAD;
+PIN "pause_button_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "pause_led" LOCATE = SITE "N5" LEVEL 1;
+COMP "wash_led<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "wash_led<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "wash_led<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "wash_led<3>" LOCATE = SITE "P4" LEVEL 1;
+COMP "wash_led<4>" LOCATE = SITE "G1" LEVEL 1;
+COMP "auto_led" LOCATE = SITE "P6" LEVEL 1;
+COMP "power_button" LOCATE = SITE "A7" LEVEL 1;
+PIN power_button_pin<0> = BEL "power_button" PINNAME PAD;
+PIN "power_button_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "mode_button" LOCATE = SITE "G12" LEVEL 1;
+PIN mode_button_pin<0> = BEL "mode_button" PINNAME PAD;
+PIN "mode_button_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+TIMEGRP clk = BEL "ns_timer_0" BEL "ns_timer_1" BEL "ns_timer_2" BEL
+        "ns_timer_3" BEL "ns_timer_4" BEL "ns_timer_5" BEL "ns_timer_6" BEL
+        "ns_timer_7" BEL "ns_timer_8" BEL "ns_timer_9" BEL "ns_timer_10" BEL
+        "ns_timer_11" BEL "ns_timer_12" BEL "ns_timer_13" BEL "ns_timer_14"
+        BEL "ns_timer_15" BEL "ns_timer_16" BEL "ns_timer_17" BEL
+        "ns_timer_18" BEL "ns_timer_19" BEL "ns_timer_20" BEL "ns_timer_21"
+        BEL "ns_timer_22" BEL "ns_timer_23" BEL "ns_timer_24" BEL
+        "ns_timer_25" BEL "real_clk" BEL "an_timer_0" BEL "an_timer_1" BEL
+        "an_timer_2" BEL "an_timer_3" BEL "an_timer_4" BEL "an_timer_5" BEL
+        "an_timer_6" BEL "an_timer_7" BEL "an_timer_8" BEL "an_timer_9" BEL
+        "an_timer_10" BEL "an_timer_11" BEL "an_timer_12" BEL "an_timer_13"
+        BEL "an_timer_14" BEL "an_timer_15" BEL "an_0" BEL "an_1" BEL "an_2"
+        BEL "an_3" BEL "ag_1" BEL "ag_2" BEL "ag_3" BEL "ag_4" BEL "ag_5" BEL
+        "ag_6" BEL "ag_7" BEL "clk_BUFGP/BUFG.GCLKMUX" BEL "clk_BUFGP/BUFG";
+TS_clk = PERIOD TIMEGRP "clk" 20 ns HIGH 50%;
+SCHEMATIC END;
+

@@ -1,0 +1,155 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Jun 19 10:54:56 2014
+# Process ID: 6552
+# Log file: F:/ISE/work/final_exp/washing_machine/planAhead_run_1/planAhead.log
+# Journal file: F:/ISE/work/final_exp/washing_machine/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source F:/ISE/work/final_exp/washing_machine/pa.fromNetlist.tcl
+# create_project -name washing_machine -dir "F:/ISE/work/final_exp/washing_machine/planAhead_run_1" -part xc3s100ecp132-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "F:/ISE/work/final_exp/washing_machine/washing_machine.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {F:/ISE/work/final_exp/washing_machine} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "washing_machine.ucf" [current_fileset -constrset]
+Adding file 'F:/ISE/work/final_exp/washing_machine/washing_machine.ucf' to fileset 'constrs_1'
+# add_files [list {washing_machine.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s100ecp132-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design washing_machine.ngc ...
+WARNING:NetListWriters:298 - No output is written to washing_machine.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus Mcompar_real_clk_cmp_lt0000_lut<10 : 1>
+   on block washing_machine is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus _old_an_timer_4<15 : 4> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus _old_ns_timer_2<25 : 7> on block
+   washing_machine is not reconstructed, because there are some missing bus
+   signals.
+  finished :Prep
+Writing EDIF netlist file washing_machine.edif ...
+ngc2edif: Total memory usage is 86368 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/washing_machine.data/cache/washing_machine_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/washing_machine.data/cache/washing_machine_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockRegion.xml
+Loading clock buffers from F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/ClockBuffers.xml
+Loading package from F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/Package.xml
+Loading io standards from F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s100e/cp132/SSORules.xml
+Loading list of drcs for the architecture : F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library F:/ISE/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [F:/ISE/work/final_exp/washing_machine/washing_machine.ucf]
+Finished Parsing UCF File [F:/ISE/work/final_exp/washing_machine/washing_machine.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 8a06b4a7
+link_design: Time (s): elapsed = 00:00:12 . Memory (MB): peak = 582.172 ; gain = 115.461
+startgroup
+set_property package_pin B8 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports mode_button]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports pause_button]
+endgroup
+set_property package_pin "" [get_ports [list  pause_led]]
+set_property package_pin "" [get_ports [list  power_led]]
+startgroup
+set_property package_pin A7 [get_ports power_button]
+endgroup
+startgroup
+set_property package_pin G1 [get_ports power_led]
+endgroup
+set_property package_pin "" [get_ports [list  stage_button]]
+set_property is_loc_fixed false [get_ports [list  pause_button]]
+startgroup
+set_property package_pin M4 [get_ports pause_button]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports stage_button]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports pause_led]
+endgroup
+startgroup
+set_property package_pin N5 [get_ports warning_led]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports {wash_led[2]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {wash_led[1]}]
+endgroup
+startgroup
+set_property package_pin M5 [get_ports {wash_led[0]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {an[3]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {an[2]}]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {an[0]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {ag[6]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {ag[5]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {ag[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {ag[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {ag[2]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {ag[2]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {ag[1]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {ag[0]}]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See F:/ISE/work/final_exp/washing_machine\planAhead_pid6552.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jun 19 11:01:59 2014...
+INFO: [Common 17-83] Releasing license: PlanAhead
